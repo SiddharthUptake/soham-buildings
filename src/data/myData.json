@@ -1,0 +1,824 @@
+{
+  "soham": [
+    {
+      "id": "1",
+      "title": "1 (Sold)",
+      "content": "SB SQ YDS: 20036.14, SQ YARDS: 16029"
+    },
+    {
+      "id": "1A",
+      "title": "1A (Sold)",
+      "content": "SB SQ YDS: 9265.25, SQ YARDS: 7412"
+    },
+    {
+      "id": "2",
+      "title": "Second Block (Sold)",
+      "content": "SB SQ YDS: 50644.69, SQ YARDS: 40516"
+    },
+    {
+      "id": "3",
+      "title": "Third Block (Sold)",
+      "content": "SB SQ YDS: 11239.56, SQ YARDS: 8992"
+    },
+    {
+      "id": "4",
+      "title": "4 (Unsold)",
+      "content": "SB SQ YDS: 6498.62, SQ YARDS: 5199"
+    },
+    {
+      "id": "4A",
+      "title": "4A (Unsold)",
+      "content": "SB SQ YDS: 5260.61, SQ YARDS: 4208"
+    },
+    {
+      "id": "5",
+      "title": "5 (Unsold)",
+      "content": "SB SQ YDS: 6242.45, SQ YARDS: 4994"
+    },
+    {
+      "id": "5A",
+      "title": "5A (Unsold)",
+      "content": "SB SQ YDS: 4684.97, SQ YARDS: 3748"
+    },
+    {
+      "id": "6",
+      "title": "6 (Sold)",
+      "content": "SB SQ YDS: 5235.88, SQ YARDS: 4189"
+    },
+    {
+      "id": "6A",
+      "title": "6A (Sold)",
+      "content": "SB SQ YDS: 4445.71, SQ YARDS: 3557"
+    },
+    {
+      "id": "7",
+      "title": "7 (Sold)",
+      "content": "SB SQ YDS: 6013.28, SQ YARDS: 4811"
+    },
+    {
+      "id": "7A",
+      "title": "7A (Sold)",
+      "content": "SB SQ YDS: 4698.79, SQ YARDS: 3759"
+    },
+    {
+      "id": "7B",
+      "title": "7B (Sold)",
+      "content": "SB SQ YDS: 5606.35, SQ YARDS: 4485"
+    },
+    {
+      "id": "7C",
+      "title": "7C (Sold)",
+      "content": "SB SQ YDS: 6282.39, SQ YARDS: 5026"
+    },
+    {
+      "id": "8",
+      "title": "8 (Unsold)",
+      "content": "SB SQ YDS: 8424.03, SQ YARDS: 6739"
+    },
+    {
+      "id": "9",
+      "title": "9 (Unsold)",
+      "content": "SB SQ YDS: 7032.94, SQ YARDS: 5626"
+    },
+    {
+      "id": "10 =1",
+      "title": "10 =1 (Sold)",
+      "content": "SB SQ YDS: 2006.31, SQ YARDS: 1605"
+    },
+    {
+      "id": "10=2",
+      "title": "10=2 (Sold)",
+      "content": "SB SQ YDS: 2006.3, SQ YARDS: 1605"
+    },
+    {
+      "id": "10=3",
+      "title": "10=3 (Unsold)",
+      "content": "SB SQ YDS: 2832.86, SQ YARDS: 2266"
+    },
+    {
+      "id": "10A1",
+      "title": "10A1 (Sold)",
+      "content": "SB SQ YDS: 2167.75, SQ YARDS: 1734"
+    },
+    {
+      "id": "10A2",
+      "title": "10A2 (Unsold)",
+      "content": "SB SQ YDS: 2167.75, SQ YARDS: 1734"
+    },
+    {
+      "id": "10A3",
+      "title": "10A3 (Unsold)",
+      "content": "SB SQ YDS: 3799.84, SQ YARDS: 3040"
+    },
+    {
+      "id": "10B1",
+      "title": "10B1 (Sold)",
+      "content": "SB SQ YDS: 1820.37, SQ YARDS: 1456"
+    },
+    {
+      "id": "10B2/1",
+      "title": "10B2/1 (Sold)",
+      "content": "SB SQ YDS: 910.18, SQ YARDS: 728"
+    },
+    {
+      "id": "10B2/2",
+      "title": "10B2/2 (Sold)",
+      "content": "SB SQ YDS: 910.18, SQ YARDS: 728"
+    },
+    {
+      "id": "10C1",
+      "title": "10C1 (Sold)",
+      "content": "SB SQ YDS: 1862.56, SQ YARDS: 1490"
+    },
+    {
+      "id": "10C2",
+      "title": "10C2 (Sold)",
+      "content": "SB SQ YDS: 1862.6, SQ YARDS: 1490"
+    },
+    {
+      "id": "10D1",
+      "title": "10D1 (Sold)",
+      "content": "SB SQ YDS: 3132.5, SQ YARDS: 2506"
+    },
+    {
+      "id": "10E",
+      "title": "10E (Unsold)",
+      "content": "SB SQ YDS: 2446.09, SQ YARDS: 1957"
+    },
+    {
+      "id": "10F",
+      "title": "10F (Unsold)",
+      "content": "SB SQ YDS: 5698.12, SQ YARDS: 4558"
+    },
+    {
+      "id": "11A",
+      "title": "11A (Sold)",
+      "content": "SB SQ YDS: 4000, SQ YARDS: 3200"
+    },
+    {
+      "id": "11B",
+      "title": "11B (Unsold)",
+      "content": "SB SQ YDS: 5001.81, SQ YARDS: 4001"
+    },
+    {
+      "id": "12",
+      "title": "12 (Unsold)",
+      "content": "SB SQ YDS: 7029.37, SQ YARDS: 5623"
+    },
+    {
+      "id": "13",
+      "title": "13 (Unsold)",
+      "content": "SB SQ YDS: 5877.29, SQ YARDS: 4702"
+    },
+    {
+      "id": "14",
+      "title": "14 (Unsold)",
+      "content": "SB SQ YDS: 5601.18, SQ YARDS: 4481"
+    },
+    {
+      "id": "15",
+      "title": "15 (Sold)",
+      "content": "SB SQ YDS: 5955.81, SQ YARDS: 4765"
+    },
+    {
+      "id": "16",
+      "title": "16 (Unsold)",
+      "content": "SB SQ YDS: 6436.69, SQ YARDS: 5149"
+    },
+    {
+      "id": "17",
+      "title": "17 (Unsold)",
+      "content": "SB SQ YDS: 6880.89, SQ YARDS: 5505"
+    },
+    {
+      "id": "18",
+      "title": "18 (Unsold)",
+      "content": "SB SQ YDS: 11553.36, SQ YARDS: 9243"
+    },
+    {
+      "id": "19",
+      "title": "19 (Sold)",
+      "content": "SB SQ YDS: 2726.97, SQ YARDS: 2182"
+    },
+    {
+      "id": "19A",
+      "title": "19A (Sold)",
+      "content": "SB SQ YDS: 1901.55, SQ YARDS: 1521"
+    },
+    {
+      "id": "20A",
+      "title": "20A (Sold)",
+      "content": "SB SQ YDS: 2744.77, SQ YARDS: 2196"
+    },
+    {
+      "id": "20B",
+      "title": "20B (Sold)",
+      "content": "SB SQ YDS: 2744.77, SQ YARDS: 2196"
+    },
+    {
+      "id": "20C",
+      "title": "20C (Sold)",
+      "content": "SB SQ YDS: 2744.77, SQ YARDS: 2196"
+    },
+    {
+      "id": "21",
+      "title": "21 (Sold)",
+      "content": "SB SQ YDS: 7130.76, SQ YARDS: 5705"
+    },
+    {
+      "id": "22",
+      "title": "22 (Unsold)",
+      "content": "SB SQ YDS: 8174.41, SQ YARDS: 6540"
+    },
+    {
+      "id": "23",
+      "title": "23 (Unsold)",
+      "content": "SB SQ YDS: 7458.2, SQ YARDS: 5967"
+    },
+    {
+      "id": "24A",
+      "title": "24A (Sold)",
+      "content": "SB SQ YDS: 3773.32, SQ YARDS: 3019"
+    },
+    {
+      "id": "24B",
+      "title": "24B (Sold)",
+      "content": "SB SQ YDS: 3773.32, SQ YARDS: 3019"
+    },
+    {
+      "id": "25",
+      "title": "25 (Sold)",
+      "content": "SB SQ YDS: 8234.33, SQ YARDS: 6587"
+    },
+    {
+      "id": "26",
+      "title": "26 (Sold)",
+      "content": "SB SQ YDS: 11876.28, SQ YARDS: 9501"
+    },
+    {
+      "id": "27",
+      "title": "27 (Sold)",
+      "content": "SB SQ YDS: 11553.36, SQ YARDS: 9243"
+    },
+    {
+      "id": "27 CP",
+      "title": "27 CP (Sold)",
+      "content": "SB SQ YDS: 1868.75, SQ YARDS: 1495"
+    },
+    {
+      "id": "",
+      "title": "",
+      "content": "SB SQ YDS: 5606.25, SQ YARDS: 4485"
+    },
+    {
+      "id": "27B",
+      "title": "27B (Sold)",
+      "content": "SB SQ YDS: 5585.75, SQ YARDS: 4469"
+    },
+    {
+      "id": "27C",
+      "title": "27C (Sold)",
+      "content": "SB SQ YDS: 3796.27, SQ YARDS: 3037"
+    },
+    {
+      "id": "27D",
+      "title": "27D (Sold)",
+      "content": "SB SQ YDS: 3726.77, SQ YARDS: 2981"
+    },
+    {
+      "id": "28",
+      "title": "28 (Unsold)",
+      "content": "SB SQ YDS: 10867.84, SQ YARDS: 8694"
+    },
+    {
+      "id": "29",
+      "title": "29 (Unsold)",
+      "content": "SB SQ YDS: 8252.4, SQ YARDS: 6602"
+    },
+    {
+      "id": "30",
+      "title": "30 (Sold)",
+      "content": "SB SQ YDS: 8234.33, SQ YARDS: 6587"
+    },
+    {
+      "id": "31",
+      "title": "31 (Sold)",
+      "content": "SB SQ YDS: 6461.6, SQ YARDS: 5169"
+    },
+    {
+      "id": "32",
+      "title": "32 (Sold)",
+      "content": "SB SQ YDS: 7649.08, SQ YARDS: 6119"
+    },
+    {
+      "id": "32A",
+      "title": "32A (Sold)",
+      "content": "SB SQ YDS: 2902.5, SQ YARDS: 2322"
+    },
+    {
+      "id": "33A",
+      "title": "33A (Sold)",
+      "content": "SB SQ YDS: 4126.6, SQ YARDS: 3301"
+    },
+    {
+      "id": "33B",
+      "title": "33B (Sold)",
+      "content": "SB SQ YDS: 4114.24, SQ YARDS: 3291"
+    },
+    {
+      "id": "34A",
+      "title": "34A (Sold)",
+      "content": "SB SQ YDS: 4126.2, SQ YARDS: 3301"
+    },
+    {
+      "id": "34b",
+      "title": "34b (Sold)",
+      "content": "SB SQ YDS: 4126.2, SQ YARDS: 3301"
+    },
+    {
+      "id": "35",
+      "title": "35 (Unsold)",
+      "content": "SB SQ YDS: 12189.45, SQ YARDS: 9752"
+    },
+    {
+      "id": "36",
+      "title": "36 (Unsold)",
+      "content": "SB SQ YDS: 8196.76, SQ YARDS: 6557"
+    },
+    {
+      "id": "37",
+      "title": "37 (Unsold)",
+      "content": "SB SQ YDS: 7564.7, SQ YARDS: 6052"
+    },
+    {
+      "id": "38",
+      "title": "38 (Unsold)",
+      "content": "SB SQ YDS: 7564.7, SQ YARDS: 6052"
+    },
+    {
+      "id": "39",
+      "title": "39 (Unsold)",
+      "content": "SB SQ YDS: 7564.7, SQ YARDS: 6052"
+    },
+    {
+      "id": "40",
+      "title": "40 (Unsold)",
+      "content": "SB SQ YDS: 7546.63, SQ YARDS: 6037"
+    },
+    {
+      "id": "41A",
+      "title": "41A (Sold)",
+      "content": "SB SQ YDS: 2564.19, SQ YARDS: 2051"
+    },
+    {
+      "id": "41B",
+      "title": "41B (Sold)",
+      "content": "SB SQ YDS: 2564.19, SQ YARDS: 2051"
+    },
+    {
+      "id": "41C",
+      "title": "41C (Sold)",
+      "content": "SB SQ YDS: 2564.19, SQ YARDS: 2051"
+    },
+    {
+      "id": "42A",
+      "title": "42A (Sold)",
+      "content": "SB SQ YDS: 1854.18, SQ YARDS: 1483"
+    },
+    {
+      "id": "42B",
+      "title": "42B (Sold)",
+      "content": "SB SQ YDS: 1685.76, SQ YARDS: 1349"
+    },
+    {
+      "id": "42C",
+      "title": "42C (Unsold)",
+      "content": "SB SQ YDS: 2284.47, SQ YARDS: 1828"
+    },
+    {
+      "id": "42D",
+      "title": "42D (Unsold)",
+      "content": "SB SQ YDS: 1479.6, SQ YARDS: 1184"
+    },
+    {
+      "id": "42E",
+      "title": "42E (Unsold)",
+      "content": "SB SQ YDS: 1480.72, SQ YARDS: 1185"
+    },
+    {
+      "id": "43",
+      "title": "43 (Unsold)",
+      "content": "SB SQ YDS: 6521.46, SQ YARDS: 5217"
+    },
+    {
+      "id": "44",
+      "title": "44 (Unsold)",
+      "content": "SB SQ YDS: 6877, SQ YARDS: 5502"
+    },
+    {
+      "id": "45",
+      "title": "45 (Unsold)",
+      "content": "SB SQ YDS: 6858.93, SQ YARDS: 5487"
+    },
+    {
+      "id": "46",
+      "title": "46 (Unsold)",
+      "content": "SB SQ YDS: 7546.63, SQ YARDS: 6037"
+    },
+    {
+      "id": "47",
+      "title": "47 (Unsold)",
+      "content": "SB SQ YDS: 7564.7, SQ YARDS: 6052"
+    },
+    {
+      "id": "48",
+      "title": "48 (Unsold)",
+      "content": "SB SQ YDS: 7864.7, SQ YARDS: 6292"
+    },
+    {
+      "id": "49",
+      "title": "49 (Unsold)",
+      "content": "SB SQ YDS: 7564.7, SQ YARDS: 6052"
+    },
+    {
+      "id": "50",
+      "title": "50 (Unsold)",
+      "content": "SB SQ YDS: 7564.7, SQ YARDS: 6052"
+    },
+    {
+      "id": "51",
+      "title": "51 (Unsold)",
+      "content": "SB SQ YDS: 7417.73, SQ YARDS: 5934"
+    },
+    {
+      "id": "52",
+      "title": "52 (Unsold)",
+      "content": "SB SQ YDS: 3765.91, SQ YARDS: 3013"
+    },
+    {
+      "id": "52 A",
+      "title": "52 A (Unsold)",
+      "content": "SB SQ YDS: 5149.38, SQ YARDS: 4120"
+    },
+    {
+      "id": "53",
+      "title": "53 (Sold)",
+      "content": "SB SQ YDS: 6900.64, SQ YARDS: 5521"
+    },
+    {
+      "id": "54B",
+      "title": "54B (Sold)",
+      "content": "SB SQ YDS: 7564.7, SQ YARDS: 6052"
+    },
+    {
+      "id": "55",
+      "title": "55 (Sold)",
+      "content": "SB SQ YDS: 7564.7, SQ YARDS: 6052"
+    },
+    {
+      "id": "56",
+      "title": "56 (Sold)",
+      "content": "SB SQ YDS: 7546.63, SQ YARDS: 6037"
+    },
+    {
+      "id": "57",
+      "title": "57 (Sold)",
+      "content": "SB SQ YDS: 6858.93, SQ YARDS: 5487"
+    },
+    {
+      "id": "58",
+      "title": "58 (Unsold)",
+      "content": "SB SQ YDS: 6877, SQ YARDS: 5502"
+    },
+    {
+      "id": "59",
+      "title": "59 (Unsold)",
+      "content": "SB SQ YDS: 7189.46, SQ YARDS: 5752"
+    },
+    {
+      "id": "60",
+      "title": "60 (Unsold)",
+      "content": "SB SQ YDS: 10091.03, SQ YARDS: 8073"
+    },
+    {
+      "id": "61",
+      "title": "61 (Sold)",
+      "content": "SB SQ YDS: 7546.63, SQ YARDS: 6037"
+    },
+    {
+      "id": "62",
+      "title": "62 (Sold)",
+      "content": "SB SQ YDS: 7546.63, SQ YARDS: 6037"
+    },
+    {
+      "id": "63",
+      "title": "63 (Sold)",
+      "content": "SB SQ YDS: 7564.7, SQ YARDS: 6052"
+    },
+    {
+      "id": "64A",
+      "title": "64A (Sold)",
+      "content": "SB SQ YDS: 7564.7, SQ YARDS: 6052"
+    },
+    {
+      "id": "65",
+      "title": "65 (Unsold)",
+      "content": "SB SQ YDS: 7109.07, SQ YARDS: 5687"
+    },
+    {
+      "id": "65 A",
+      "title": "65 A (Unsold)",
+      "content": "SB SQ YDS: 1485.12, SQ YARDS: 1188"
+    },
+    {
+      "id": "65 B",
+      "title": "65 B (Unsold)",
+      "content": "SB SQ YDS: 2900.97, SQ YARDS: 2321"
+    },
+    {
+      "id": "65 C",
+      "title": "65 C (Sold)",
+      "content": "SB SQ YDS: 1497.62, SQ YARDS: 1198"
+    },
+    {
+      "id": "65 D",
+      "title": "65 D (Sold)",
+      "content": "SB SQ YDS: 1233.38, SQ YARDS: 987"
+    },
+    {
+      "id": "65 E",
+      "title": "65 E (Sold)",
+      "content": "SB SQ YDS: 1233.38, SQ YARDS: 987"
+    },
+    {
+      "id": "65 F",
+      "title": "65 F (Sold)",
+      "content": "SB SQ YDS: 1233.38, SQ YARDS: 987"
+    },
+    {
+      "id": "65G",
+      "title": "65G (Sold)",
+      "content": "SB SQ YDS: 1534.78, SQ YARDS: 1228"
+    },
+    {
+      "id": "65H1",
+      "title": "65H1 (Sold)",
+      "content": "SB SQ YDS: 932.51, SQ YARDS: 746"
+    },
+    {
+      "id": "65H2",
+      "title": "65H2 (Sold)",
+      "content": "SB SQ YDS: 932.51, SQ YARDS: 746"
+    },
+    {
+      "id": "65 I",
+      "title": "65 I (Sold)",
+      "content": "SB SQ YDS: 1871.73, SQ YARDS: 1497"
+    },
+    {
+      "id": "65 J1",
+      "title": "65 J1 (Sold)",
+      "content": "SB SQ YDS: 1233.38, SQ YARDS: 987"
+    },
+    {
+      "id": "65 K",
+      "title": "65 K (Sold)",
+      "content": "SB SQ YDS: 1824.09, SQ YARDS: 1459"
+    },
+    {
+      "id": "65 L1",
+      "title": "65 L1 (Sold)",
+      "content": "SB SQ YDS: 999.39, SQ YARDS: 800"
+    },
+    {
+      "id": "65 L2",
+      "title": "65 L2 (Sold)",
+      "content": "SB SQ YDS: 999.39, SQ YARDS: 800"
+    },
+    {
+      "id": "66",
+      "title": "66 (Unsold)",
+      "content": "SB SQ YDS: 8367.89, SQ YARDS: 6694"
+    },
+    {
+      "id": "67",
+      "title": "67 (Unsold)",
+      "content": "SB SQ YDS: 7564.7, SQ YARDS: 6052"
+    },
+    {
+      "id": "68",
+      "title": "68 (Unsold)",
+      "content": "SB SQ YDS: 7564.7, SQ YARDS: 6052"
+    },
+    {
+      "id": "69",
+      "title": "69 (Sold)",
+      "content": "SB SQ YDS: 7546.63, SQ YARDS: 6037"
+    },
+    {
+      "id": "70",
+      "title": "70 (Unsold)",
+      "content": "SB SQ YDS: 10969.44, SQ YARDS: 8776"
+    },
+    {
+      "id": "71",
+      "title": "71 (Sold)",
+      "content": "SB SQ YDS: 7546.63, SQ YARDS: 6037"
+    },
+    {
+      "id": "72",
+      "title": "72 (Unsold)",
+      "content": "SB SQ YDS: 7564.7, SQ YARDS: 6052"
+    },
+    {
+      "id": "73",
+      "title": "73 (Sold)",
+      "content": "SB SQ YDS: 7564.7, SQ YARDS: 6052"
+    },
+    {
+      "id": "74",
+      "title": "74 (Unsold)",
+      "content": "SB SQ YDS: 9197.7, SQ YARDS: 7358"
+    },
+    {
+      "id": "75",
+      "title": "75 (Unsold)",
+      "content": "SB SQ YDS: 5398.85, SQ YARDS: 4319"
+    },
+    {
+      "id": "76",
+      "title": "76 (Sold)",
+      "content": "SB SQ YDS: 5499.37, SQ YARDS: 4399"
+    },
+    {
+      "id": "77",
+      "title": "77 (Sold)",
+      "content": "SB SQ YDS: 5623.35, SQ YARDS: 4499"
+    },
+    {
+      "id": "78",
+      "title": "78 (Sold)",
+      "content": "SB SQ YDS: 5747.45, SQ YARDS: 4598"
+    },
+    {
+      "id": "79",
+      "title": "79 (Unsold)",
+      "content": "SB SQ YDS: 6062.46, SQ YARDS: 4850"
+    },
+    {
+      "id": "80",
+      "title": "80 (Unsold)",
+      "content": "SB SQ YDS: 9532.13, SQ YARDS: 7626"
+    },
+    {
+      "id": "80A",
+      "title": "80A (Unsold)",
+      "content": "SB SQ YDS: 1768.17, SQ YARDS: 1415"
+    },
+    {
+      "id": "81",
+      "title": "81 (Sold)",
+      "content": "SB SQ YDS: 1475.57, SQ YARDS: 1180"
+    },
+    {
+      "id": "82",
+      "title": "82 (Sold)",
+      "content": "SB SQ YDS: 1233.38, SQ YARDS: 987"
+    },
+    {
+      "id": "83",
+      "title": "83 (Sold)",
+      "content": "SB SQ YDS: 1233.38, SQ YARDS: 987"
+    },
+    {
+      "id": "84",
+      "title": "84 (Sold)",
+      "content": "SB SQ YDS: 1233.38, SQ YARDS: 987"
+    },
+    {
+      "id": "85",
+      "title": "85 (Sold)",
+      "content": "SB SQ YDS: 1233.38, SQ YARDS: 987"
+    },
+    {
+      "id": "86",
+      "title": "86 (Sold)",
+      "content": "SB SQ YDS: 1587.69, SQ YARDS: 1270"
+    },
+    {
+      "id": "87",
+      "title": "87 (Sold)",
+      "content": "SB SQ YDS: 2960.1, SQ YARDS: 2368"
+    },
+    {
+      "id": "88",
+      "title": "88 (Sold)",
+      "content": "SB SQ YDS: 1367.07, SQ YARDS: 1094"
+    },
+    {
+      "id": "89",
+      "title": "89 (Sold)",
+      "content": "SB SQ YDS: 1233.38, SQ YARDS: 987"
+    },
+    {
+      "id": "90",
+      "title": "90 (Sold)",
+      "content": "SB SQ YDS: 2195.86, SQ YARDS: 1757"
+    },
+    {
+      "id": "91",
+      "title": "91 (Unsold)",
+      "content": "SB SQ YDS: 1475.57, SQ YARDS: 1180"
+    },
+    {
+      "id": "92",
+      "title": "92 (Sold)",
+      "content": "SB SQ YDS: 1233.38, SQ YARDS: 987"
+    },
+    {
+      "id": "93",
+      "title": "93 (Sold)",
+      "content": "SB SQ YDS: 2595.51, SQ YARDS: 2076"
+    },
+    {
+      "id": "94",
+      "title": "94 (Sold)",
+      "content": "SB SQ YDS: 1818.2, SQ YARDS: 1455"
+    },
+    {
+      "id": "95",
+      "title": "95 (Sold)",
+      "content": "SB SQ YDS: 1559.43, SQ YARDS: 1248"
+    },
+    {
+      "id": "96",
+      "title": "96 (Sold)",
+      "content": "SB SQ YDS: 1599.65, SQ YARDS: 1280"
+    },
+    {
+      "id": "97",
+      "title": "97 (Unsold)",
+      "content": "SB SQ YDS: 1639.9, SQ YARDS: 1312"
+    },
+    {
+      "id": "98",
+      "title": "98 (Unsold)",
+      "content": "SB SQ YDS: 2109.07, SQ YARDS: 1687"
+    },
+    {
+      "id": "521/1",
+      "title": "521/1 (Unsold)",
+      "content": "SB SQ YDS: 1472.34, SQ YARDS: 1104"
+    },
+    {
+      "id": "521/2",
+      "title": "521/2 (Unsold)",
+      "content": "SB SQ YDS: 1472.34, SQ YARDS: 1104"
+    },
+    {
+      "id": "521/3",
+      "title": "521/3 (Unsold)",
+      "content": "SB SQ YDS: 1472.34, SQ YARDS: 1104"
+    },
+    {
+      "id": "521/4",
+      "title": "521/4 (Unsold)",
+      "content": "SB SQ YDS: 1472.34, SQ YARDS: 1104"
+    },
+    {
+      "id": "521/5",
+      "title": "521/5 (Unsold)",
+      "content": "SB SQ YDS: 1472.34, SQ YARDS: 1104"
+    },
+    {
+      "id": "521/6",
+      "title": "521/6 (Unsold)",
+      "content": "SB SQ YDS: 4955.35, SQ YARDS: 3717"
+    },
+    {
+      "id": "521/7",
+      "title": "521/7 (Sold)",
+      "content": "SB SQ YDS: 5047.23, SQ YARDS: 3785"
+    },
+    {
+      "id": "521/8",
+      "title": "521/8 (Unsold)",
+      "content": "SB SQ YDS: 1514.62, SQ YARDS: 1136"
+    },
+    {
+      "id": "521/9",
+      "title": "521/9 (Unsold)",
+      "content": "SB SQ YDS: 1429.99, SQ YARDS: 1072"
+    },
+    {
+      "id": "521/10",
+      "title": "521/10 (Unsold)",
+      "content": "SB SQ YDS: 1468.85, SQ YARDS: 1102"
+    },
+    {
+      "id": "521/11",
+      "title": "521/11 (Unsold)",
+      "content": "SB SQ YDS: 1532.16, SQ YARDS: 1149"
+    }
+  ]
+}
