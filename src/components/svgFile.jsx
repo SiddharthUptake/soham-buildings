@@ -1848,10 +1848,9 @@ function Icon() {
                 x="7200"
                 y="1938"
                 rx="130"
-                fill="green"
+                fill="red"
                 width="250" // Adjust width based on your text size
                 height="250" // Adjust height based on your text size
-                className="bg-active" // Add the 'bg-active' class conditionally
               />
               <text
                 id="text370"
@@ -5407,15 +5406,24 @@ function Icon() {
                 strokeWidth="4"
                 d="M5073 1008.5c0 13.531-10.97 24.5-24.5 24.5s-24.5-10.969-24.5-24.5 10.97-24.5 24.5-24.5 24.5 10.969 24.5 24.5"
               ></path>
+
+              <rect
+                x="4950"
+                y="1400"
+                width="150"
+                height="150"
+                fill="red"
+                rx="130"
+              />
               <text
                 id="text1088"
                 style={{ InkscapeFontSpecification: "ArialMT" }}
-                fill="#000"
+                fill="#fff"
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
                 fontFamily="Arial"
-                fontSize="42.308"
+                fontSize="150"
                 fontVariant="normal"
                 fontWeight="normal"
                 transform="matrix(1 0 0 -1 4983 1417)"
@@ -5519,15 +5527,24 @@ function Icon() {
                 strokeWidth="6"
                 d="M4818 990l-1-4-2-4-3-4-5-4-6-3-7-3-8-1-8-1-8 1-8 1-7 3-6 3-5 4-4 4-2 4v8l2 4 4 4 5 4 6 3 7 3 7 1 9 1 8-1 7-1 8-2 6-4 4-3 4-4 2-5 1-4"
               ></path>
+
+              <rect
+                x="4900"
+                y="1840"
+                width="150"
+                height="150"
+                fill="red"
+                rx="130"
+              />
               <text
                 id="text1106"
                 style={{ InkscapeFontSpecification: "ArialMT" }}
-                fill="#000"
+                fill="#fff"
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
                 fontFamily="Arial"
-                fontSize="42.308"
+                fontSize="150"
                 fontVariant="normal"
                 fontWeight="normal"
                 transform="matrix(1 0 0 -1 4937 1850)"
@@ -5549,22 +5566,31 @@ function Icon() {
                 strokeWidth="4"
                 d="M4974 1866.5c0 13.531-10.97 24.5-24.5 24.5s-24.5-10.969-24.5-24.5 10.97-24.5 24.5-24.5 24.5 10.969 24.5 24.5"
               ></path>
+
+              <rect
+                x="4550"
+                y="1860"
+                width="250"
+                height="150"
+                fill="red"
+                rx="130"
+              />
               <text
                 id="text1112"
                 style={{ InkscapeFontSpecification: "ArialMT" }}
-                fill="#000"
+                fill="#fff"
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
                 fontFamily="Arial"
-                fontSize="42.308"
+                fontSize="150"
                 fontVariant="normal"
                 fontWeight="normal"
                 transform="matrix(1 0 0 -1 4588 1872)"
                 writingMode="lr-tb"
               >
                 <tspan id="tspan1110" x="0 23.523249" y="0">
-                  7a
+                  7&nbsp;a
                 </tspan>
               </text>
               <path
@@ -5579,22 +5605,31 @@ function Icon() {
                 strokeWidth="6"
                 d="M4651 1884l-1-4-2-4-3-5-5-3-6-4-7-2-8-2h-16l-8 2-7 2-6 3-5 4-3 4-2 4-1 4 1 5 2 4 3 4 5 4 6 3 7 2 8 2h16l8-2 7-2 6-3 5-4 3-4 2-4 1-4"
               ></path>
+
+              <rect
+                x="4490"
+                y="2300"
+                width="250"
+                height="150"
+                fill="red"
+                rx="130"
+              />
               <text
                 id="text1118"
                 style={{ InkscapeFontSpecification: "ArialMT" }}
-                fill="#000"
+                fill="#fff"
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
                 fontFamily="Arial"
-                fontSize="42.308"
+                fontSize="150"
                 fontVariant="normal"
                 fontWeight="normal"
                 transform="matrix(1 0 0 -1 4541 2302)"
                 writingMode="lr-tb"
               >
                 <tspan id="tspan1116" x="0 23.523249" y="0">
-                  7b
+                  7&nbsp;b
                 </tspan>
               </text>
               <path
@@ -5609,22 +5644,30 @@ function Icon() {
                 strokeWidth="6"
                 d="M4604 2314v-4l-2-4-4-4-5-4-6-3-7-3-7-1-9-1-8 1-8 1-7 3-6 3-5 4-3 4-2 4-1 4 1 4 2 4 3 4 5 4 6 3 7 3 8 1 8 1 8-1 8-1 7-3 6-3 5-4 4-4 2-4v-4"
               ></path>
+              <rect
+                x="4820"
+                y="2380"
+                width="250"
+                height="150"
+                fill="red"
+                rx="130"
+              />
               <text
                 id="text1124"
                 style={{ InkscapeFontSpecification: "ArialMT" }}
-                fill="#000"
+                fill="#fff"
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
                 fontFamily="Arial"
-                fontSize="42.308"
+                fontSize="150"
                 fontVariant="normal"
                 fontWeight="normal"
                 transform="matrix(1 0 0 -1 4876 2388)"
                 writingMode="lr-tb"
               >
                 <tspan id="tspan1122" x="0 23.523249" y="0">
-                  7c
+                  7&nbsp;c
                 </tspan>
               </text>
               <path
@@ -8257,22 +8300,31 @@ function Icon() {
                   d="M5673 1253h-7l10-59zm-7 0l10-59h-8z"
                 ></path>
               </g>
+
+              <rect
+                x="4600"
+                y="1460"
+                width="250"
+                height="150"
+                fill="red"
+                rx="130"
+              />
               <text
                 id="text1630"
                 style={{ InkscapeFontSpecification: "ArialMT" }}
-                fill="#000"
+                fill="#fff"
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
                 fontFamily="Arial"
-                fontSize="42.308"
+                fontSize="150"
                 fontVariant="normal"
                 fontWeight="normal"
                 transform="matrix(1 0 0 -1 4625 1488)"
                 writingMode="lr-tb"
               >
                 <tspan id="tspan1628" x="0 23.523249" y="0">
-                  6a
+                  6&nbsp; a
                 </tspan>
               </text>
               <path
@@ -8287,22 +8339,30 @@ function Icon() {
                 strokeWidth="6"
                 d="M4688 1500l-1-4-2-4-3-4-5-4-6-3-7-3-8-1-8-1-8 1-8 1-7 3-6 3-5 4-3 4-2 4-1 4 1 4 2 4 3 4 5 4 6 3 7 3 8 1 8 1 8-1 8-1 7-3 6-3 5-3 3-5 2-4 1-4"
               ></path>
+              <rect
+                x="7600"
+                y="1900"
+                width="200"
+                height="200"
+                fill="red"
+                rx="130"
+              />
               <text
                 id="text1636"
                 style={{ InkscapeFontSpecification: "ArialMT" }}
-                fill="#000"
+                fill="#fff"
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
                 fontFamily="Arial"
-                fontSize="42.308"
+                fontSize="150"
                 fontVariant="normal"
                 fontWeight="normal"
                 transform="matrix(1 0 0 -1 7601 1951)"
                 writingMode="lr-tb"
               >
                 <tspan id="tspan1634" x="0 23.523249" y="0">
-                  1a
+                  1&nbsp;a
                 </tspan>
               </text>
               <path
@@ -17400,15 +17460,15 @@ function Icon() {
                   d="M-70.5 0c0-25.129 31.564-45.5 70.5-45.5S70.5-25.129 70.5 0 38.936 45.5 0 45.5-70.5 25.129-70.5 0"
                 ></path>
               </g>
-            
+
               <rect
-    x="2790"
-    y="8930"
-    width="250"
-    height="150"
-    fill="red"
-    rx="130"
-  />
+                x="2790"
+                y="8930"
+                width="250"
+                height="150"
+                fill="red"
+                rx="130"
+              />
               <text
                 id="text3576"
                 style={{ InkscapeFontSpecification: "ArialMT" }}
@@ -17441,15 +17501,15 @@ function Icon() {
                   d="M-70.5 0c0-25.129 31.564-45.5 70.5-45.5S70.5-25.129 70.5 0 38.936 45.5 0 45.5-70.5 25.129-70.5 0"
                 ></path>
               </g>
-            
+
               <rect
-    x="2880"
-    y="9060"
-    width="250"
-    height="150"
-    fill="red"
-    rx="130"
-  />
+                x="2880"
+                y="9060"
+                width="250"
+                height="150"
+                fill="red"
+                rx="130"
+              />
               <text
                 id="text3584"
                 style={{ InkscapeFontSpecification: "ArialMT" }}
@@ -17514,22 +17574,31 @@ function Icon() {
                   d="M-70.5 0c0-25.129 31.564-45.5 70.5-45.5S70.5-25.129 70.5 0 38.936 45.5 0 45.5-70.5 25.129-70.5 0"
                 ></path>
               </g>
+
+              <rect
+                x="3050"
+                y="8720"
+                width="250"
+                height="150"
+                fill="red"
+                rx="130"
+              />
               <text
                 id="text3600"
                 style={{ InkscapeFontSpecification: "ArialMT" }}
-                fill="#000"
+                fill="#fff"
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
                 fontFamily="Arial"
-                fontSize="68.412"
+                fontSize="100"
                 fontVariant="normal"
                 fontWeight="normal"
                 transform="matrix(.99994 .01103 .01103 -.99994 3083 8752)"
                 writingMode="lr-tb"
               >
                 <tspan id="tspan3598" x="0 38.037106 76.074211" y="0">
-                  65i
+                  6&nbsp;5&nbsp;i
                 </tspan>
               </text>
               <g id="g3602" transform="rotate(-179.744 1571.787 4383.034)">
