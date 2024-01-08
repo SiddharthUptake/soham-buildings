@@ -39,11 +39,13 @@ function SvgPlan() {
           <div class="circle-red m-2">
             <span class="circle__content"></span>
           </div>
-
+         
           <span>sold</span>
         </div>
       </div>
-
+      <center>
+      <p>(Click on the Block For Further Details)</p>
+      </center>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         id="svg2"

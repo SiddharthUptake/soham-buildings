@@ -10,8 +10,8 @@ const Contact = () => {
         <Col md={6} className="mb-4">
           <div className="contact-info">
             <h4 className="mb-3">Location</h4>
-            <p>123 Industry Street</p>
-            <p>Cityville, State, 12345</p>
+            <p>SOHAM INDUSTRIAL PARK BAREJA-MAHIJADA-DHOLKA ROAD VILLAGE- MAHIJADA</p>
+            <p> TAL, Gujarat 382425</p>
           </div>
         </Col>
         <Col md={6} className="mb-4">
@@ -36,7 +36,7 @@ const Contact = () => {
               scrolling="no"
               marginHeight="0"
               marginWidth="0"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.678901234567!2d0.000000!3d0.000000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDE4JzEzLjQiTiAwwrAxOCcwMC43Ilc!5e0!3m2!1sen!2sus!4v1605577179174!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117675.01958001863!2d72.4448737889519!3d22.82674571290576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e8d78a5d9d423%3A0x51c991cad85d2c20!2sSoham%20Industrial%20Park!5e0!3m2!1sen!2sin!4v1704711163168!5m2!1sen!2sin"
               allowFullScreen=""
             ></iframe>
           </div>
