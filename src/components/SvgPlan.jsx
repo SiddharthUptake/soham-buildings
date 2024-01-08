@@ -1,10 +1,24 @@
 import React, { useState } from "react";
 import jsonData from "../data/myData.json";
-import { Popover, PopoverBody } from "reactstrap";
+import { Button, Popover, PopoverBody } from "reactstrap";
 
 function SvgPlan() {
   const [popoverData, setPopoverData] = useState({ id: null, content: null });
   const [popoverTargets, setPopoverTargets] = useState({});
+
+ 
+    const handleOpenPdf = () => {
+      // Replace 'path/to/your/pdf.pdf' with the actual path to your PDF file
+      const pdfPath = 'https://drive.google.com/file/d/1vsldDik8h8NTENxkD3gEL3b_t7J8cIB5/view?usp=drive_link';
+      
+      const anchor = document.createElement('a');
+    anchor.href = pdfPath;
+    anchor.download = 'downloaded-pdf.pdf';
+    anchor.click();
+    };
+
+  
+
 
   const handleTextClick = (id, targetId) => {
     const data = jsonData.soham.find((item) => item.id === id);
@@ -27,7 +41,7 @@ function SvgPlan() {
   return (
     <>
       <div className="d-flex justify-content-center align-tems-center mt-4 px-5">
-        <div className="d-flex justify-contanet-center align-items-center">
+        <div className="d-flex justify-content-center align-items-center">
           <div class="circle-green m-2">
             <span class="circle__content"></span>
           </div>
@@ -45,6 +59,14 @@ function SvgPlan() {
       </div>
       <center>
       <p>(Click on the Block For Further Details)</p>
+
+      <div className="d-flex justify-content-center align-items-center px-5 mb-3">
+      
+      <button type="button" className="btn btn-primary" onClick={handleOpenPdf}>
+        View Pdf
+      </button>
+    
+      </div>
       </center>
       <svg
         xmlns="http://www.w3.org/2000/svg"
