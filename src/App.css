@@ -1,5 +1,38 @@
 svg {
   width: 100%;
+  border: 1px solid black;
+}
+
+#path8886{
+  stroke: none !important;
+}
+
+.circle-green {
+  display: inline-table;
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.circle-red {
+  display: inline-table;
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.circle__content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.ml-auto{
+  margin-left: auto;
 }
 /* YourComponent.css */
 .description {
@@ -73,3 +106,38 @@ text{
 .text-bg.bg-active:before {
   opacity: 1;
 }
+
+/* contact css */
+
+
+.contact-container {
+  background-color: #f8f9fa; /* Light background color */
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.contact-heading {
+  color: #343a40; /* Dark text color */
+  font-size: 2rem;
+}
+
+.contact-info {
+  background-color: #ffffff; /* White background color */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+
+.map-container {
+  border-radius: 10px;
+  overflow: hidden; /* Ensure the map stays within the container's rounded corners */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+

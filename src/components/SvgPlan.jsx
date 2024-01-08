@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import jsonData from "../data/myData.json";
 import { Popover, PopoverBody } from "reactstrap";
 
-function Icon() {
+function SvgPlan() {
   const [popoverData, setPopoverData] = useState({ id: null, content: null });
   const [popoverTargets, setPopoverTargets] = useState({});
 
@@ -26,18 +26,24 @@ function Icon() {
 
   return (
     <>
-      <div className="container-fluid px-5 parent-div-first">
-        <div className="description">
-          <div>
-            <span class="unsold"></span>
-            <span className="p-2">Unsold Properties</span>
+      <div className="d-flex justify-content-center align-tems-center mt-4 px-5">
+        <div className="d-flex justify-contanet-center align-items-center">
+          <div class="circle-green m-2">
+            <span class="circle__content"></span>
           </div>
-          <div>
-            <span class="sold"></span>
-            <span className="p-2">sold Properties</span>
+
+          <span>Unsold</span>
+        </div>
+
+        <div className="d-flex justify-contanet-center align-items-center">
+          <div class="circle-red m-2">
+            <span class="circle__content"></span>
           </div>
+
+          <span>sold</span>
         </div>
       </div>
+
       <svg
         xmlns="http://www.w3.org/2000/svg"
         id="svg2"
@@ -794,21 +800,24 @@ function Icon() {
                 ></path>
               </g>
               <g id="g170">
-                <path
-                  id="path172"
-                  fill="#000"
-                  fillOpacity="1"
-                  fillRule="nonzero"
-                  stroke="#000"
-                  strokeDasharray="none"
-                  strokeLinecap="round"
-                  strokeLinejoin="miter"
-                  strokeMiterlimit="10"
-                  strokeOpacity="1"
-                  strokeWidth="6.25"
-                  d="M7443 12568h137l-116-21z"
-                ></path>
+                <g id="g170">
+                  <path
+                    id="path172"
+                    fill="#000"
+                    fillOpacity="1"
+                    fillRule="nonzero"
+                    stroke="#000"
+                    strokeDasharray="none"
+                    strokeLinecap="round"
+                    strokeLinejoin="miter"
+                    strokeMiterlimit="10"
+                    strokeOpacity="1"
+                    strokeWidth="6.25"
+                    d="M7443 12568h137l-116-21z"
+                  ></path>
+                </g>
               </g>
+
               <g id="g174">
                 <path
                   id="path176"
@@ -829,22 +838,30 @@ function Icon() {
           </g>
           <g id="g178">
             <g id="g180" clipPath="url(#clipPath184)">
+              <rect
+                x="6050"
+                y="4080"
+                width="200"
+                height="200"
+                fill="red"
+                rx="130"
+              />
               <text
                 id="text188"
                 style={{ InkscapeFontSpecification: "ArialMT" }}
-                fill="#000"
+                fill="#fff"
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
                 fontFamily="Arial"
-                fontSize="50.769"
+                fontSize="150"
                 fontVariant="normal"
                 fontWeight="normal"
                 transform="matrix(1 0 0 -1 6068 4127)"
                 writingMode="lr-tb"
               >
                 <tspan id="tspan186" x="0 28.227564" y="0">
-                  27
+                  2&nbsp;7
                 </tspan>
               </text>
             </g>
@@ -2006,22 +2023,31 @@ function Icon() {
                 strokeWidth="4"
                 d="M5126 3119.5c0 19.054-15.446 34.5-34.5 34.5-19.054 0-34.5-15.446-34.5-34.5 0-19.054 15.446-34.5 34.5-34.5 19.054 0 34.5 15.446 34.5 34.5"
               ></path>
+
+              <rect
+                x="4520"
+                y="2960"
+                width="200"
+                height="200"
+                fill="red"
+                rx="130"
+              />
               <text
                 id="text394"
                 style={{ InkscapeFontSpecification: "ArialMT" }}
-                fill="#000"
+                fill="#fff"
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
                 fontFamily="Arial"
-                fontSize="42.308"
+                fontSize="150"
                 fontVariant="normal"
                 fontWeight="normal"
                 transform="matrix(.99977 .02128 .02128 -.99977 4536 2999)"
                 writingMode="lr-tb"
               >
                 <tspan id="tspan392" x="0 23.523165" y="0">
-                  15
+                  1&nbsp;5
                 </tspan>
               </text>
               <rect
@@ -4376,22 +4402,32 @@ function Icon() {
                 strokeWidth="4"
                 d="M7266 2881.5c0 12.979-10.521 23.5-23.5 23.5s-23.5-10.521-23.5-23.5 10.521-23.5 23.5-23.5 23.5 10.521 23.5 23.5"
               ></path>
+
+              <rect
+                x="7460"
+                y="4480"
+                width="250"
+                height="150"
+                fill="green"
+                rx="130"
+              />
               <text
                 id="text866"
+                onClick={(e) => handleTextClick("10F", e.target.id)}
                 style={{ InkscapeFontSpecification: "ArialMT" }}
-                fill="#000"
+                fill="#fff"
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
                 fontFamily="Arial"
-                fontSize="42.308"
+                fontSize="100"
                 fontVariant="normal"
                 fontWeight="normal"
                 transform="matrix(1 0 0 -1 7496 4518)"
                 writingMode="lr-tb"
               >
                 <tspan id="tspan864" x="0 23.523249 47.046497" y="0">
-                  10f
+                  1&nbsp;0&nbsp;f
                 </tspan>
               </text>
               <path
@@ -4406,22 +4442,32 @@ function Icon() {
                 strokeWidth="6"
                 d="M7577 4534l-1-4-1-4-4-4-6-5-7-3-8-3-9-2-10-1-9 1-10 2-8 2-7 4-5 4-4 5-2 4-1 4 1 4 2 4 4 5 5 4 7 4 8 2 9 2 10 1 10-1 9-1 8-3 7-4 6-4 3-5 2-4 1-4"
               ></path>
+
+              <rect
+                x="7170"
+                y="4470"
+                width="250"
+                height="150"
+                fill="green"
+                rx="130"
+              />
               <text
                 id="text872"
+                onClick={(e) => handleTextClick("10G", e.target.id)}
                 style={{ InkscapeFontSpecification: "ArialMT" }}
-                fill="#000"
+                fill="#fff"
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
                 fontFamily="Arial"
-                fontSize="42.308"
+                fontSize="100"
                 fontVariant="normal"
                 fontWeight="normal"
                 transform="matrix(1 0 0 -1 7205 4517)"
                 writingMode="lr-tb"
               >
                 <tspan id="tspan870" x="0 23.523249 47.046497" y="0">
-                  10g
+                  1&nbsp;0&nbsp;g
                 </tspan>
               </text>
               <path
@@ -4891,22 +4937,31 @@ function Icon() {
                 strokeWidth="4"
                 d="M6835 2856.5c0 12.979-10.521 23.5-23.5 23.5s-23.5-10.521-23.5-23.5 10.521-23.5 23.5-23.5 23.5 10.521 23.5 23.5"
               ></path>
+
+              <rect
+                x="6940"
+                y="4500"
+                width="250"
+                height="150"
+                fill="red"
+                rx="130"
+              />
               <text
                 id="text984"
                 style={{ InkscapeFontSpecification: "ArialMT" }}
-                fill="#000"
+                fill="#fff"
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
                 fontFamily="Arial"
-                fontSize="42.308"
+                fontSize="100"
                 fontVariant="normal"
                 fontWeight="normal"
                 transform="matrix(.9999 .01409 .01409 -.9999 6986 4547)"
                 writingMode="lr-tb"
               >
                 <tspan id="tspan982" x="0 23.523232 47.046463" y="0">
-                  10h
+                  1&nbsp;0&nbsp;h
                 </tspan>
               </text>
               <path
@@ -4921,22 +4976,31 @@ function Icon() {
                 strokeWidth="6"
                 d="M7071 4559l-1-4-2-4-3-4-6-5-7-3-8-3-9-2-10-1-10 1-9 2-8 2-7 4-6 4-3 5-2 4-1 4 1 4 2 4 3 4 6 5 7 3 8 3 9 2 10 1 9-1 10-1 8-3 7-4 5-4 4-5 2-4 1-4"
               ></path>
+
+              <rect
+                x="6700"
+                y="4440"
+                width="250"
+                height="150"
+                fill="red"
+                rx="130"
+              />
               <text
                 id="text990"
                 style={{ InkscapeFontSpecification: "ArialMT" }}
-                fill="#000"
+                fill="#fff"
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
                 fontFamily="Arial"
-                fontSize="42.308"
+                fontSize="100"
                 fontVariant="normal"
                 fontWeight="normal"
                 transform="matrix(1 0 0 -1 6736 4478)"
                 writingMode="lr-tb"
               >
                 <tspan id="tspan988" x="0 23.523249 47.046497" y="0">
-                  10i
+                  1&nbsp;0&nbsp;i
                 </tspan>
               </text>
               <path
@@ -5071,22 +5135,30 @@ function Icon() {
                 strokeWidth="6"
                 d="M7383 3991l-1-4-2-4-3-4-6-5-7-3-8-3-9-2-10-1-10 1-9 2-8 2-7 4-6 4-3 5-2 4-1 4 1 4 2 4 3 4 6 5 7 3 8 3 9 2 10 1 10-1 9-2 8-2 7-4 6-4 3-5 2-4 1-4"
               ></path>
+              <rect
+                x="6257"
+                y="3340"
+                width="250"
+                height="150"
+                fill="red"
+                rx="130"
+              />
               <text
                 id="text1020"
                 style={{ InkscapeFontSpecification: "ArialMT" }}
-                fill="#000"
+                fill="#fff"
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
                 fontFamily="Arial"
-                fontSize="42.308"
+                fontSize="100"
                 fontVariant="normal"
                 fontWeight="normal"
                 transform="matrix(1 0 0 -1 6257 3383)"
                 writingMode="lr-tb"
               >
                 <tspan id="tspan1018" x="0 23.523249 47.046497" y="0">
-                  10m
+                  1&nbsp;0&nbsp;m
                 </tspan>
               </text>
               <path
@@ -9576,22 +9648,33 @@ function Icon() {
                 strokeWidth="6"
                 d="M6571 2684.5a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0"
               ></path>
+
+              <rect
+                x="7470"
+                y="4000"
+                width="250"
+                height="150"
+                fill="green"
+                rx="130"
+              />
+
               <text
                 id="text1904"
+                onClick={(e) => handleTextClick("10E", e.target.id)}
                 style={{ InkscapeFontSpecification: "ArialMT" }}
-                fill="#000"
+                fill="#fff"
                 fillOpacity="1"
                 fillRule="nonzero"
                 stroke="none"
                 fontFamily="Arial"
-                fontSize="42.308"
+                fontSize="100"
                 fontVariant="normal"
                 fontWeight="normal"
                 transform="matrix(1 0 0 -1 7502 4046)"
                 writingMode="lr-tb"
               >
                 <tspan id="tspan1902" x="0 23.523249 47.046497" y="0">
-                  10e
+                  1&nbsp;0&nbsp;e
                 </tspan>
               </text>
               <path
@@ -43230,4 +43313,4 @@ function Icon() {
   );
 }
 
-export default Icon;
+export default SvgPlan;
