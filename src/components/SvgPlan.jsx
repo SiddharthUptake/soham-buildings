@@ -6,19 +6,16 @@ function SvgPlan() {
   const [popoverData, setPopoverData] = useState({ id: null, content: null });
   const [popoverTargets, setPopoverTargets] = useState({});
 
- 
-    const handleOpenPdf = () => {
-      // Replace 'path/to/your/pdf.pdf' with the actual path to your PDF file
-      const pdfPath = 'https://drive.google.com/file/d/1vsldDik8h8NTENxkD3gEL3b_t7J8cIB5/view?usp=drive_link';
-      
-      const anchor = document.createElement('a');
+  const handleOpenPdf = () => {
+    // Replace 'path/to/your/pdf.pdf' with the actual path to your PDF file
+    const pdfPath =
+      "https://drive.google.com/file/d/1vsldDik8h8NTENxkD3gEL3b_t7J8cIB5/view?usp=drive_link";
+
+    const anchor = document.createElement("a");
     anchor.href = pdfPath;
-    anchor.download = 'downloaded-pdf.pdf';
+    anchor.download = "downloaded-pdf.pdf";
     anchor.click();
-    };
-
-  
-
+  };
 
   const handleTextClick = (id, targetId) => {
     const data = jsonData.soham.find((item) => item.id === id);
@@ -53,20 +50,22 @@ function SvgPlan() {
           <div class="circle-red m-2">
             <span class="circle__content"></span>
           </div>
-         
+
           <span>sold</span>
         </div>
       </div>
       <center>
-      <p>(Click on the Block For Further Details)</p>
+        <p>(Click on the Block For Further Details)</p>
 
-      <div className="d-flex justify-content-center align-items-center px-5 mb-3">
-      
-      <button type="button" className="btn btn-primary" onClick={handleOpenPdf}>
-        View Pdf
-      </button>
-    
-      </div>
+        <div className="d-flex justify-content-center align-items-center px-5 mb-3">
+          <button
+            type="button"
+            className="btn btn-primary"
+            onClick={handleOpenPdf}
+          >
+            View Pdf
+          </button>
+        </div>
       </center>
       <svg
         xmlns="http://www.w3.org/2000/svg"

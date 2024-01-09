@@ -8,8 +8,8 @@ import {
   Nav,
   NavItem,
   NavLink,
-  Container,
 } from "reactstrap";
+import logo from "../assets/Sohamlogo.png"
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,8 +21,8 @@ function Header() {
 
   return (
     <div>
-      <Navbar className="px-3" color="dark" dark expand="md">
-        <NavbarBrand href="/">Soham Industry</NavbarBrand>
+      <Navbar className="px-2" color="dark" dark expand="md">
+        <img className="logo" src={logo} alt="logo" />
         <NavbarToggler onClick={toggleNavbar} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>

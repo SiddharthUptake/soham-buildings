@@ -3,6 +3,17 @@ svg {
   border: 1px solid black;
 }
 
+.logo{
+  width: 200px;
+
+}
+
+@media screen and (max-width: 767px) {
+  .logo{
+    width: 130px;
+  }
+}
+
 #path8886{
   stroke: none !important;
 }
