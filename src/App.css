@@ -1,20 +1,19 @@
 svg {
   width: 100%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
-.logo{
+.logo {
   width: 200px;
-
 }
 
 @media screen and (max-width: 767px) {
-  .logo{
+  .logo {
     width: 130px;
   }
 }
 
-#path8886{
+#path8886 {
   stroke: none !important;
 }
 
@@ -42,7 +41,7 @@ svg {
   text-align: center;
 }
 
-.ml-auto{
+.ml-auto {
   margin-left: auto;
 }
 /* YourComponent.css */
@@ -53,7 +52,7 @@ svg {
   border-radius: 12px;
 }
 
-.parent-div-first{
+.parent-div-first {
   display: flex;
   align-items: end;
   justify-content: end;
@@ -74,7 +73,7 @@ svg {
   fill: white;
   cursor: pointer;
 }
-text{
+text {
   cursor: pointer;
 }
 
@@ -120,7 +119,6 @@ text{
 
 /* contact css */
 
-
 .contact-container {
   background-color: #f8f9fa; /* Light background color */
   padding: 40px;
@@ -141,8 +139,6 @@ text{
   transition: transform 0.3s ease-in-out;
 }
 
-
-
 .map-container {
   border-radius: 10px;
   overflow: hidden; /* Ensure the map stays within the container's rounded corners */
@@ -150,5 +146,165 @@ text{
   transition: transform 0.3s ease-in-out;
 }
 
+/* about */
+
+.about-banner {
+  background: url(./assets/construction-workers-sunset.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  height: 35vh;
+}
+
+.about-banner {
+  position: relative;
+  width: 100%;
+  height: 35vh;
+  overflow: hidden; /* Ensure the dark layer covers the entire banner */
+}
+
+.about-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); 
+  z-index: 1; 
+}
+
+.banner-title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white; 
+  z-index: 2; 
+}
+
+.banner-title svg{
+  width: 30px !important;
+  border: none;
+}
+
+.banner-content{
+  display: grid;
+  place-items: center;
+  box-shadow: 0px 4px 44px rgba(211, 211, 211, 0.35);
+ padding-top: 20px;
+ padding-bottom: 10px;
+  border-radius: 12px;
+}
+
+@media screen and (min-width: 991px) {
+  .banner-content{
+    padding: 30px;
+  }
+}
+
+.banner-content ol li{
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 767px ) {
+  .banner-content ol li{
+    padding-top: 10px;
+    font-size: 13px;
+  }
+}
+
+.card{
+  box-shadow: 0px 4px 44px rgba(211, 211, 211, 0.35);
+  /* border: 1px solid black !important; */
+}
+
+@media screen and (min-width: 767px) {
+  .features{
+    display: none !important;
+  }
+}
+
+/* footer css */
+
+.footer-dark {
+  padding:20px 0;
+  color:#f0f9ff;
+  background-color:#282d32;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
 
 
+
+
+
+
+
+
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
+
+.card-body a{
+  color: white;
+  text-decoration: none;
+}
+
+.text p{
+  padding-top: 10px;
+}

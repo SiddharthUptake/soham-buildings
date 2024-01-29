@@ -1,10 +1,15 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import jsonData from "../data/myData.json";
 import { Button, Popover, PopoverBody } from "reactstrap";
+import { Link, useNavigate } from "react-router-dom";
+import About from "./Features";
+import Footer from "./Footer";
 
 function SvgPlan() {
   const [popoverData, setPopoverData] = useState({ id: null, content: null });
   const [popoverTargets, setPopoverTargets] = useState({});
+  // const navigate = useNavigate()
+  const aboutRef = useRef(null);
 
   const handleOpenPdf = () => {
     // Replace 'path/to/your/pdf.pdf' with the actual path to your PDF file
@@ -35,9 +40,41 @@ function SvgPlan() {
     }));
   };
 
+
+
   return (
     <>
-      <div className="d-flex justify-content-center align-tems-center mt-4 px-5">
+    <About />
+    <hr />
+      <section className="d-flex justify-content-end px-5 align-items-center">
+        <div class="card mt-3 mb-3" style={{ width: "auto" }}>
+          <center>
+          <div class="card-body">
+          <div class="circle-green m-2">
+            <span class="circle__content"></span>
+          </div>
+          <span>Unsold</span>
+      
+          <div class="circle-red m-2">
+            <span class="circle__content"></span>
+          </div>
+
+          <span>sold</span>
+            <p class="card-text">
+            (Click on the Block For Further Details)
+            </p>
+            <Button color="primary" className="m-3" onClick={handleOpenPdf}>
+             View Pdf
+            </Button>
+            <Button color="primary" className="m-3 features"><a href="#abt-id"    >
+             View Features
+            </a></Button>
+           
+          </div>
+          </center>
+        </div>
+      </section>
+      {/* <div className="d-flex justify-content-end align-tems-end mt-4 px-5">
         <div className="d-flex justify-content-center align-items-center">
           <div class="circle-green m-2">
             <span class="circle__content"></span>
@@ -54,7 +91,7 @@ function SvgPlan() {
           <span>sold</span>
         </div>
       </div>
-      <center>
+      <div className="d-flex flex-column justify-content-end align-tems-end mt-4 px-5">
         <p>(Click on the Block For Further Details)</p>
 
         <div className="d-flex justify-content-center align-items-center px-5 mb-3">
@@ -66,7 +103,7 @@ function SvgPlan() {
             View Pdf
           </button>
         </div>
-      </center>
+      </div> */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
         id="svg2"
@@ -43332,6 +43369,9 @@ function SvgPlan() {
           </Popover>
         );
       })}
+
+
+      <Footer/>
     </>
   );
 }
