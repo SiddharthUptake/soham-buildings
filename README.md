@@ -1,4 +1,4 @@
-# Getting Started with Soham Indutrial Park
+# Getting Started with Soham Industrial Park
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
