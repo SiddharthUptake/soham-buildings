@@ -1,22 +1,17 @@
-import React, { useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import React from "react";
+import { Link } from "react-router-dom";
 import {
-  Collapse,
   Navbar,
-  NavbarToggler,
-  Nav,
-  NavItem,
-  NavLink,
 } from "reactstrap";
 import logo from "../assets/Sohamlogo.png"
 
 function Header() {
-  const [isOpen, setIsOpen] = useState(false);
-  const location = useLocation();
+  // const [isOpen, setIsOpen] = useState(false);
+  // const location = useLocation();
 
-  const toggleNavbar = () => {
-    setIsOpen(!isOpen);
-  };
+  // const toggleNavbar = () => {
+  //   setIsOpen(!isOpen);
+  // };
 
   return (
     <div>

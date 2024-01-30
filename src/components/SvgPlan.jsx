@@ -1,7 +1,6 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import jsonData from "../data/myData.json";
 import { Button, Popover, PopoverBody } from "reactstrap";
-import { Link, useNavigate } from "react-router-dom";
 import About from "./Features";
 import Footer from "./Footer";
 
@@ -9,7 +8,7 @@ function SvgPlan() {
   const [popoverData, setPopoverData] = useState({ id: null, content: null });
   const [popoverTargets, setPopoverTargets] = useState({});
   // const navigate = useNavigate()
-  const aboutRef = useRef(null);
+  // const aboutRef = useRef(null);
 
   const handleOpenPdf = () => {
     // Replace 'path/to/your/pdf.pdf' with the actual path to your PDF file

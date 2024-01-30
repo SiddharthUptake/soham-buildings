@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="container-fluid px-5">
           <div className="row">
             <div className="col-lg-4 item text">
-              <img src={logo} className="w-50" />
+              <img src={logo} className="w-50" alt="img" />
               <p className="pt-4">AN INDUSTRIAL PARK THAT IS DESIGNED AND EXECUTED KEEPING ALL THE BASIC INDUSTRIAL NEEDS ON THE MIND AND THAT TOO ON A LAND THAT HOLDS A HIGH APPRECIATION VALUE IN THE FUTURE. PARK IS READY WITH ALL THE AMENITIES READY AND THE BASIC INFRASTRUCTURE IN SOUND CONDITION.</p>
             </div>
             <div className="col-lg-4 item text">
