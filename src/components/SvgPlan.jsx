@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import jsonData from "../data/myData.json";
 import { Button, Popover, PopoverBody } from "reactstrap";
-import About from "./Features";
-import Footer from "./Footer";
 
 function SvgPlan() {
   const [popoverData, setPopoverData] = useState({ id: null, content: null });
@@ -43,7 +41,6 @@ function SvgPlan() {
 
   return (
     <>
-    <About />
     <hr />
       <section className="d-flex justify-content-end px-5 align-items-center">
         <div class="card mt-3 mb-3" style={{ width: "auto" }}>
@@ -43370,7 +43367,7 @@ function SvgPlan() {
       })}
 
 
-      <Footer/>
+
     </>
   );
 }

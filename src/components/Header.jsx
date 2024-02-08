@@ -1,36 +1,58 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import {
-  Navbar,
-} from "reactstrap";
-import logo from "../assets/Sohamlogo.png"
+import React, { useEffect, useState } from "react";
+import { Link, NavLink, useLocation } from "react-router-dom";
+import { Collapse, Nav, NavItem, Navbar, NavbarToggler } from "reactstrap";
+import logo from "../assets/Sohamlogo.png";
 
 function Header() {
-  // const [isOpen, setIsOpen] = useState(false);
-  // const location = useLocation();
+  const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
 
-  // const toggleNavbar = () => {
-  //   setIsOpen(!isOpen);
-  // };
+  const toggleNavbar = () => {
+    setIsOpen(!isOpen);
+  };
 
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      setIsScrolled(scrollTop > 0);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <div>
-      <Navbar className="px-2" color="dark" dark expand="md">
-        <Link to="/"> <img className="logo" src={logo} alt="logo"  /></Link>
-        {/* <NavbarToggler onClick={toggleNavbar} /> */}
-        {/* <Collapse isOpen={isOpen} navbar>
+      <Navbar className={`px-2 ${isScrolled ? "navbar-scrolled" : ""}`}
+        color={isScrolled ? "dark" : "transparent"}
+        dark
+        expand="md"
+        fixed="top">
+        <a href="#">
+   
+          <img className="logo" src={logo} alt="logo" />
+        </a>
+        <NavbarToggler onClick={toggleNavbar} />
+         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="/" className={location.pathname === "/" ? "active" : ""}>Home</NavLink>
+              <a href="#" >Home</a>
             </NavItem>
             <NavItem>
-              <NavLink href="/features" className={location.pathname === "/features" ? "active" : ""}>Features</NavLink>
+              <a href="#about" >About</a>
             </NavItem>
             <NavItem>
-              <NavLink href="/contact"  className={location.pathname === "/contact" ? "active" : ""}>Contact Us</NavLink>
+              <a href="#features" className={location.pathname === "/features" ? "active" : ""}>Features</a>
+            </NavItem>
+            <NavItem>
+              <a href="#contact"  className={location.pathname === "/contact" ? "active" : ""}>Contact Us</a>
             </NavItem>
           </Nav>
-        </Collapse> */}
+        </Collapse>
       </Navbar>
     </div>
   );
