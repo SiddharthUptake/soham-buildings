@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import jsonData from "../data/myData.json";
 import { Button, Popover, PopoverBody } from "reactstrap";
+import plan from "../assets/plan.pdf"
+
 
 function SvgPlan() {
   const [popoverData, setPopoverData] = useState({ id: null, content: null });
@@ -8,15 +10,21 @@ function SvgPlan() {
   // const navigate = useNavigate()
   // const aboutRef = useRef(null);
 
-  const handleOpenPdf = () => {
-    // Replace 'path/to/your/pdf.pdf' with the actual path to your PDF file
-    const pdfPath =
-      "https://drive.google.com/file/d/1vsldDik8h8NTENxkD3gEL3b_t7J8cIB5/view?usp=drive_link";
+  const handleDownload = (pdfPath) => {
+    // Create a link element
+    const link = document.createElement("a");
+    link.href = pdfPath; // Set the href attribute to the PDF file path
+    link.download = "plan.pdf"; // Set the desired file name for download
+    link.target = "_blank";
 
-    const anchor = document.createElement("a");
-    anchor.href = pdfPath;
-    anchor.download = "downloaded-pdf.pdf";
-    anchor.click();
+    // Append the link to the document
+    document.body.appendChild(link);
+
+    // Trigger a click on the link to start the download
+    link.click();
+
+    // Remove the link from the document after the download
+    document.body.removeChild(link);
   };
 
   const handleTextClick = (id, targetId) => {
@@ -59,13 +67,9 @@ function SvgPlan() {
             <p class="card-text">
             (Click on the Block For Further Details)
             </p>
-            <Button color="primary" className="m-3" onClick={handleOpenPdf}>
-             View Pdf
+            <Button color="primary" className="m-3"  onClick={() => handleDownload(plan)}>
+             Download Pdf
             </Button>
-            <Button color="primary" className="m-3 features"><a href="#abt-id"    >
-             View Features
-            </a></Button>
-           
           </div>
           </center>
         </div>

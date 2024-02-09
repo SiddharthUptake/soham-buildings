@@ -159,7 +159,6 @@ text {
 /* about */
 
 .about-banner {
-  background: url(./assets/construction-workers-sunset.jpg) no-repeat;
   background-position: center;
   background-size: cover;
   object-fit: contain;
@@ -384,15 +383,14 @@ h2{
   border-radius: 50%;
 } */
 
-.slick-next::before , .slick-prev::before{
+/* .slick-next::before , .slick-prev::before{
   color: black !important;
-}
+} */
 
-@media screen and (max-width: 500px) {
   .slick-next , .slick-prev {
     display: none !important;
   }
-}
+
 
 @media screen and (max-width: 991px) {
   .abt-col{
