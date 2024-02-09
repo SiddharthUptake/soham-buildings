@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { Link, NavLink, useLocation } from "react-router-dom";
+// import { Link, NavLink, useLocation } from "react-router-dom";
 import { Collapse, Nav, NavItem, Navbar, NavbarToggler } from "reactstrap";
 import logo from "../assets/Sohamlogo.png";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
-  const location = useLocation();
+  // const location = useLocation();
 
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
@@ -46,10 +46,10 @@ function Header() {
               <a href="#about" >About</a>
             </NavItem>
             <NavItem>
-              <a href="#features" className={location.pathname === "/features" ? "active" : ""}>Features</a>
+              <a href="#features" >Features</a>
             </NavItem>
             <NavItem>
-              <a href="#contact"  className={location.pathname === "/contact" ? "active" : ""}>Contact Us</a>
+              <a href="#contact" >Contact Us</a>
             </NavItem>
           </Nav>
         </Collapse>
