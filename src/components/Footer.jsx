@@ -18,7 +18,7 @@ const Footer = () => {
               </p>
             </div>
             <div className="col-lg-4 item text">
-              <h2>Contact Information</h2>
+              <span  className="footer-titles">Contact Information</span>
               <p>Email: info@sohamindustry.com</p>
               <p> Phone: +91 9714148332</p>
               <p>
@@ -27,9 +27,10 @@ const Footer = () => {
               </p>
             </div>
             <div className="col-lg-4 item text">
-              <h2>Location</h2>
+              <span className="footer-titles">Location</span>
               <iframe
                 title="industry-location-map"
+                className="mt-3"
                 width="90%"
                 height="200"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117675.01958001863!2d72.4448737889519!3d22.82674571290576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e8d78a5d9d423%3A0x51c991cad85d2c20!2sSoham%20Industrial%20Park!5e0!3m2!1sen!2sin!4v1704711163168!5m2!1sen!2sin"
