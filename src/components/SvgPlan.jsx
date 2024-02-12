@@ -13,8 +13,8 @@ function SvgPlan() {
   const handleDownload = (pdfPath) => {
     // Create a link element
     const link = document.createElement("a");
-    link.href = pdfPath; // Set the href attribute to the PDF file path
-    link.download = "plan.pdf"; // Set the desired file name for download
+    link.href = pdfPath; 
+    link.download = "plan.pdf"; 
     link.target = "_blank";
 
     // Append the link to the document

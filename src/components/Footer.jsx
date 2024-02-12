@@ -19,7 +19,7 @@ const Footer = () => {
             </div>
             <div className="col-lg-4 item text">
               <span  className="footer-titles">Contact Information</span>
-              <p>Email: info@sohamindustry.com</p>
+              <p>Email: sohamindpark@gmail.com</p>
               <p> Phone: +91 9714148332</p>
               <p>
                 Address : SOHAM INDUSTRIAL PARK BAREJA-MAHIJADA-DHOLKA ROAD

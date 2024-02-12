@@ -43,7 +43,7 @@ const About = () => {
           lg={6}
           className="d-flex jusify-content-center align-items-center"
           data-aos="fade-left"
-          data-aos-duration="1500"
+          data-aos-duration="1000"
         >
           <div className="abt-desc">
             <h2>About Us</h2>

@@ -24,7 +24,6 @@ function App() {
       <Header />
       <Banner />
       <About />
-      
       <WhySoham />
       <Gallery />
       <SvgPlan />

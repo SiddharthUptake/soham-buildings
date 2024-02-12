@@ -11,6 +11,7 @@ import c5 from "../../assets/drone/c5.jpg";
 import c6 from "../../assets/drone/c6.jpg";
 import c7 from "../../assets/drone/c7.jpg";
 import c8 from "../../assets/drone/c8.jpg";
+import ban2 from "../../assets/sections.jpeg";
 
 const Gallery = () => {
   const images = [c1, c2, c3, c4, c5, c6, c7, c8];
@@ -52,16 +53,20 @@ const Gallery = () => {
     ],
   };
   return (
-    <Container className="mt-5 mb-5">
-      <h2>- Gallery</h2>
-      <Slider {...settings}>
-        {images.map((image, index) => (
-          <div key={index} className="gallery-img p-3">
-            <img src={image} alt={`img${index + 1}`} />
-          </div>
-        ))}
-      </Slider>
-    </Container>
+    <>
+      <Container className="mt-5 mb-5">
+        <h2>- Gallery</h2>
+        <Slider {...settings}>
+          {images.map((image, index) => (
+            <div key={index} className="gallery-img p-3">
+              <img src={image} alt={`img${index + 1}`} />
+            </div>
+          ))}
+        </Slider>
+      </Container>
+
+      <img src={ban2} alt="sec2" className="w-100" />
+    </>
   );
 };
 
