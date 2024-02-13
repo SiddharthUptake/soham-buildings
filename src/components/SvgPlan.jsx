@@ -50,7 +50,7 @@ function SvgPlan() {
   return (
     <>
     <hr />
-      <section className="d-flex justify-content-end px-5 align-items-center">
+      <section className="svg-plan px-5">
         <div class="card mt-3 mb-3" style={{ width: "auto" }}>
           <center>
           <div class="card-body">

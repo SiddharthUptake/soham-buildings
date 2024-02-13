@@ -402,3 +402,14 @@ h2{
   font-size: 25px;
 }
 
+.svg-plan{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+@media screen and (max-width: 767px) {
+  .svg-plan{
+    justify-content: center;
+  }
+}
