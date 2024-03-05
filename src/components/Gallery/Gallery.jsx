@@ -65,7 +65,27 @@ const Gallery = () => {
         </Slider>
       </Container>
 
-      <img src={ban2} alt="sec2" className="w-100" />
+
+          <div className="sub-details ">
+            <div className="d-flex flex-wrap justify-content-center align-items-center h-100 pt-5 pb-5" style={{ gap: "80px" }}>
+              <div className="circle-info">
+                <span>SPANNING <br /> OVER</span>
+                <h6 className="text-danger">11,00,000 SQ.</h6>
+                <h6>YARDS AREA</h6>
+              </div>
+              <div className="circle-info">
+                <span>CAN <br /> ACCOMODATE</span>
+                <h6 className="text-danger">250 +</h6>
+                <h6>COMPANIES</h6>
+              </div>
+              <div className="circle-info">
+                <span>CURRENTLY <br /> HOSTING</span>
+                <h6 className="text-danger">60+</h6>
+                <h6>OPERATIONAL <br /> INDUSTRIES</h6>
+              </div>
+              </div>
+          </div>
+        
     </>
   );
 };

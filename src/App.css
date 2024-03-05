@@ -10,8 +10,11 @@ p , li{
 
 svg {
   width: 100%;
+
   /* border: 1px solid black; */
 }
+
+
 
 .logo {
   width: 200px;
@@ -405,11 +408,58 @@ h2{
 .svg-plan{
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: center;
 }
 
 @media screen and (max-width: 767px) {
   .svg-plan{
     justify-content: center;
   }
+}
+
+
+svg path{
+  stroke: black !important;
+}
+
+.svg-overlay text{
+  fill: black ;
+  /* font-size: 90px; */
+}
+
+
+.sub-details {
+  position: relative; /* Ensure positioning context for absolute child */
+}
+
+.sub-details::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity (0.5 for 50% darkness) */
+  z-index: 1; /* Ensure it's above the content */
+}
+
+
+.sub-details {
+  background: url(./assets/drone/b1.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+.circle-info{
+  position: relative;
+  z-index: 2;
+  max-width: 100%; 
+  border: 2px solid red;
+  background-color: white;
+  border-radius: 50%;
+  padding: 50px; /* Add padding for spacing */
+  box-sizing: border-box; /* Include padding in width calculation */
+  text-align: center; 
 }
