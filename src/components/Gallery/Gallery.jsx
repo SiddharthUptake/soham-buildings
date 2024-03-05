@@ -11,7 +11,7 @@ import c5 from "../../assets/drone/c5.jpg";
 import c6 from "../../assets/drone/c6.jpg";
 import c7 from "../../assets/drone/c7.jpg";
 import c8 from "../../assets/drone/c8.jpg";
-import ban2 from "../../assets/sections.jpeg";
+
 
 const Gallery = () => {
   const images = [c1, c2, c3, c4, c5, c6, c7, c8];
