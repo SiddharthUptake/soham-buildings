@@ -1,17 +1,33 @@
-import { Navigate, Route, Routes } from "react-router-dom";
+import React, { lazy, Suspense, useEffect } from "react";
+// import { Navigate, Route, Routes } from "react-router-dom";
 import "./App.css";
-import SvgPlan from "./components/SvgPlan";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Banner from "./components/Banner/Banner";
-import About from "./components/About/About";
-import WhySoham from "./components/Features";
-import Gallery from "./components/Gallery/Gallery";
 import Aos from "aos";
-import { useEffect } from "react";
-// import Contact from "./components/Contact";
-// import About from "./components/Features"
+import TabView from "./components/TabView";
+
+const Header = lazy(() => import("./components/Header"));
+const Banner = lazy(() => import("./components/Banner/Banner"));
+const About = lazy(() => import("./components/About/About"));
+const WhySoham = lazy(() => import("./components/Features"));
+const Gallery = lazy(() => import("./components/Gallery/Gallery"));
+const SvgPlan = lazy(() => import("./components/Phases/PhaseOne"));
+const Footer = lazy(() => import("./components/Footer"));
+
+// Loading placeholder component
+const ShimmerLoader = () => (
+<div class="loader">
+  h1
+  <div class="square" id="sq1"></div>
+  <div class="square" id="sq2"></div>
+  <div class="square" id="sq3"></div>
+  <div class="square" id="sq4"></div>
+  <div class="square" id="sq5"></div>
+  <div class="square" id="sq6"></div>
+  <div class="square" id="sq7"></div>
+  <div class="square" id="sq8"></div>
+  <div class="square" id="sq9"></div>
+</div>
+);
 
 function App() {
   useEffect(() => {
@@ -19,22 +35,26 @@ function App() {
       once: true,
     });
   }, []);
+
   return (
-    <div className="App">
-      <Header />
-      <Banner />
-      <About />
-      <WhySoham />
-      <Gallery />
-      <SvgPlan />
-      <Footer />
-      {/* <Routes>
-        <Route path="/" element={<SvgPlan />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/features" element={<About/>} />
-        <Route path="*" element={<Navigate to="/"/>} />
-      </Routes> */}
-    </div>
+    <Suspense fallback={<ShimmerLoader />}>
+      <div className="App">
+        <Header />
+        <Banner />
+        <About />
+        <WhySoham />
+        <Gallery />
+        <TabView/>
+        {/* <SvgPlan /> */}
+        <Footer />
+        {/* <Routes>
+          <Route path="/" element={<SvgPlan />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/features" element={<About />} />
+          <Route path="*" element={<Navigate to="/" />} />
+        </Routes> */}
+      </div>
+    </Suspense>
   );
 }
 
